@@ -1,8 +1,8 @@
 //Underrated Llamas
 
 var llamaFactoids = new Vue({
-	el: '.main',
+	el: '.factoids',
 	data: {
-		factoid1: "Llama Test Yo"
+		factoid1: "test"
 	}
 })
