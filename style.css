@@ -1,0 +1,32 @@
+html {
+	background: lightyellow;
+	border: 20px yellow solid;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	letter-spacing: .15em;
+	line-height: 1.5em;
+	padding: 50px;
+}
+
+header {
+	
+}
+
+main {
+	max-width: 60%;
+}
+
+ol {
+	line-height: 1.7em;
+}
+
+a:hover {
+	font-style: italic;
+}
+
+a:visited {
+	color: black;
+}

@@ -14,7 +14,7 @@
 	</header>
 	<main>
 		<div class="factoids">
-			<ul>
+			<ol>
 				<li>{{factoid1}}</li>
 				<li>{{factoid2}}</li>
 				<li>{{factoid3}}</li>
@@ -24,8 +24,12 @@
 				<li>{{factoid7}}</li>
 				<li>{{factoid8}}</li>
 				<li>{{factoid9}}</li>
-				<li>{{factoid10}}</li>
-			</ul>
+				<div class="spitter">
+					<li v-if="rudeSpitting!==true">{{factoid10}}</li>
+					<li v-else>Nevermind</li>
+					
+				</div>
+			</ol>
 		</div>
 	</main>
 	<footer>
