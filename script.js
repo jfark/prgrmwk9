@@ -3,7 +3,8 @@
 var spittingOffense = new Vue({
   el: '.spitter',
   data: {
-    rudeSpitting: window.confirm("Does spitting offend you? Press Yes if so, and press Cancel otherwise.")
+    rudeSpitting: window.confirm("Does spitting offend you? Press Yes if so, and press Cancel otherwise."),
+	factoid10: "Llamas spit for many different reasons - spitting is essentially just part of their vocabulary :P"
   }
 })
 
